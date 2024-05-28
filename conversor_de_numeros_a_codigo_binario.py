@@ -1,7 +1,4 @@
-from inversor_cadenas import * # Importaré este código debido a que voy a usarlo 
-
-# Conversor de números a código binario 
-
+from inversor_cadenas import * 
 def convertir_a_binario(numero): # Esto me va a dar el número binario pero invertido 
     binario = ""
     while numero > 0: 
